@@ -1,0 +1,5 @@
+||:org.netbeans.demomodule.Installer
+java.lang.System
+java.io.PrintStream
+org.openide.modules.ModuleInstall
+org.netbeans.demomodule.Installer

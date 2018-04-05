@@ -1,0 +1,9 @@
+/Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/platform=1518396762000
+cluster./Users/pershapakdast/Documents/NetBeansProjects/NetBeansLab1_MinimalRuntimeContainer/build/cluster=1522694641000
+cluster./Applications/NetBeans/NetBeans 8.2.app/Contents/Resources/NetBeans/platform=1518396762000
+user=1522694641000
+crc=7
+locale=da_DK
+branding=netbeanslab1_minimalruntimecontainer
+java.version=1.8.0_161
+java.vm.version=25.161-b12
