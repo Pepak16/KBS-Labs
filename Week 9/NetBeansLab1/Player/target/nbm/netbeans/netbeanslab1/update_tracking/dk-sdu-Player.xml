@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.Player">
+    <module_version install_time="1522919267403" last="true" origin="installer" specification_version="1.0">
+        <file crc="4146105268" name="config/Modules/dk-sdu-Player.xml"/>
+        <file crc="2442990648" name="modules/dk-sdu-Player.jar"/>
+    </module_version>
+</module>

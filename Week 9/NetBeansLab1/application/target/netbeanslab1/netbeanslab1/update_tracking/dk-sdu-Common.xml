@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="dk.sdu.Common">
+    <module_version install_time="1522919283847" last="true" origin="installer" specification_version="1.0">
+        <file crc="4099162173" name="config/Modules/dk-sdu-Common.xml"/>
+        <file crc="2060472234" name="modules/dk-sdu-Common.jar"/>
+    </module_version>
+</module>

@@ -1,0 +1,11 @@
+platform=1522919299000
+cluster.bin=1522919299000
+cluster.etc=1522919299000
+cluster.netbeanslab1=1522919299000
+cluster.platform=1522919299000
+user=1522919299000
+crc=7
+locale=da_DK
+branding=netbeanslab1
+java.version=1.8.0_161
+java.vm.version=25.161-b12
