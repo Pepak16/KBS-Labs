@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="netbeanslab1.Player">
+    <module_version install_time="1523317580442" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="1753879724" name="config/Modules/netbeanslab1-Player.xml"/>
+        <file crc="1344882467" name="modules/netbeanslab1-Player.jar"/>
+        <file crc="496246564" name="update_tracking/netbeanslab1-Player.xml"/>
+    </module_version>
+</module>

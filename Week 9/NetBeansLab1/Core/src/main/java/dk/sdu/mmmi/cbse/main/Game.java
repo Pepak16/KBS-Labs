@@ -26,7 +26,7 @@ public class Game
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
     private World world = new World();
-    private final Lookup lookup = Lookup.getDefault();
+    private Lookup lookup = Lookup.getDefault();
 
     @Override
     public void create() {
