@@ -6,7 +6,7 @@
     <artifactId>asteroids.serviceloader</artifactId>
     <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>AsteroidsServiceLoader</name>
+    <name>ProJava</name>
     <repositories>
     </repositories>
 
@@ -14,6 +14,7 @@
         <module>Core</module>
         <module>Common</module>
         <module>Player</module>
+        <module>Enemy</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>        
