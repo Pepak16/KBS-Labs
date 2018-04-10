@@ -9,14 +9,13 @@ import com.badlogic.gdx.backends.lwjgl.LwjglApplication;
 import com.badlogic.gdx.backends.lwjgl.LwjglApplicationConfiguration;
 import org.openide.modules.ModuleInstall;
 
-/**
- *
- * @author pershapakdast
- */
 public class Installer extends ModuleInstall {
+
     @Override
     public void restored() {
-        LwjglApplicationConfiguration cfg =
+        Game g = new Game();
+        
+		LwjglApplicationConfiguration cfg =
 			new LwjglApplicationConfiguration();
 		cfg.title = "Asteroids";
 		cfg.width = 500;
@@ -24,6 +23,8 @@ public class Installer extends ModuleInstall {
 		cfg.useGL30 = false;
 		cfg.resizable = false;
 		
-		new LwjglApplication(new Game(), cfg);
-    }
+		new LwjglApplication(g, cfg);
+		
+	}
+
 }

@@ -1,5 +1,6 @@
 package dk.sdu.mmmi.cbse.common.util;
 
+import dk.sdu.mmmi.cbse.common.data.Entity;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -17,7 +18,7 @@ public class SPILocator {
 
     @SuppressWarnings("unchecked")
     public static <T> List<T> locateAll(Class<T> service) {
-        ServiceLoader<T> loader = loadermap.get(service);
+        ServiceLoader<T> loader = loadermap.get(Entity.class);
 
         boolean printStatement = false;
 

@@ -3,6 +3,7 @@ package dk.sdu.mmmi.cbse.common.data;
 import dk.sdu.mmmi.cbse.common.data.entityparts.EntityPart;
 import java.io.Serializable;
 import java.util.Map;
+import java.util.ServiceLoader;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
 
@@ -13,11 +14,12 @@ public class Entity implements Serializable {
     private float[] shapeY = new float[4];
     private float radius;
     private Map<Class, EntityPart> parts;
+    public static Entity service;
     
     public Entity() {
         parts = new ConcurrentHashMap<>();
     }
-    
+
     public void add(EntityPart part) {
         parts.put(part.getClass(), part);
     }

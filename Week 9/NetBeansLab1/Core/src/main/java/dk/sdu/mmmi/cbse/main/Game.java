@@ -1,3 +1,8 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package dk.sdu.mmmi.cbse.main;
 
 import com.badlogic.gdx.ApplicationListener;
@@ -10,23 +15,21 @@ import dk.sdu.mmmi.cbse.common.data.GameData;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 import dk.sdu.mmmi.cbse.common.services.IGamePluginService;
-//import dk.sdu.mmmi.cbse.common.util.SPILocator;
+// import dk.sdu.mmmi.cbse.common.util.SPILocator;
 import dk.sdu.mmmi.cbse.managers.GameInputProcessor;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 import org.openide.util.Lookup;
 
-public class Game
-        implements ApplicationListener {
+public class Game implements ApplicationListener {
 
     private static OrthographicCamera cam;
     private ShapeRenderer sr;
-
+    private Lookup lookup = Lookup.getDefault();
     private final GameData gameData = new GameData();
     private List<IEntityProcessingService> entityProcessors = new ArrayList<>();
     private World world = new World();
-    private Lookup lookup = Lookup.getDefault();
 
     @Override
     public void create() {
@@ -116,7 +119,7 @@ public class Game
     }
 
     private Collection<? extends IEntityProcessingService> getEntityProcessingServices() {
-        //return SPILocator.locateAll(IEntityProcessingService.class);
         return lookup.lookupAll(IEntityProcessingService.class);
+        //return SPILocator.locateAll(IEntityProcessingService.class);
     }
 }
