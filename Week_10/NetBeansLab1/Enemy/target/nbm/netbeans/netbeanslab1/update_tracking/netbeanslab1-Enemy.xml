@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="netbeanslab1.Enemy">
+    <module_version install_time="1523455441761" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="2614496739" name="config/Modules/netbeanslab1-Enemy.xml"/>
+        <file crc="2785217193" name="modules/netbeanslab1-Enemy.jar"/>
+    </module_version>
+</module>

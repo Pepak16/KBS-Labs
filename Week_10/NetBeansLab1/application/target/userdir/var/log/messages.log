@@ -1,0 +1,128 @@
+-------------------------------------------------------------------------------
+>Log Session: Wednesday, April 11, 2018 4:04:11 PM CEST
+>System Info: 
+  Product Version         = NetBeans Platform 8.2 (Build 201609300101)
+  Operating System        = Mac OS X version 10.12.6 running on x86_64
+  Java; VM; Vendor        = 1.8.0_161; Java HotSpot(TM) 64-Bit Server VM 25.161-b12; Oracle Corporation
+  Runtime                 = Java(TM) SE Runtime Environment 1.8.0_161-b12
+  Java Home               = /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre
+  System Locale; Encoding = da_DK (netbeanslab1); UTF-8
+  Home Directory          = /Users/pershapakdast
+  Current Directory       = /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application
+  User Directory          = /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/userdir
+  Cache Directory         = /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/userdir/var/cache
+  Installation            = /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/asteroidsnetbeansmodules
+                            /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/bin
+                            /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/etc
+                            /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform
+                            /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform
+  Boot & Ext. Classpath   = /Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/System/Library/Java/Extensions/MRJToolkit.jar
+  Application Classpath   = /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/boot.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-modules.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-util-lookup.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-util-ui.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/org-openide-util.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/boot_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/boot_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/boot_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/boot_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-modules_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-modules_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-modules_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-modules_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-lookup_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-lookup_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-lookup_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-lookup_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-ui_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-ui_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-ui_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util-ui_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/lib/locale/org-openide-util_zh_CN.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/lib/tools.jar
+  Startup Classpath       = /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/asm-all-5.0.1.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/core-base.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/core.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/org-netbeans-libs-asm.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/org-openide-filesystems.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core-base_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core-base_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core-base_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core-base_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/core_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-netbeans-libs-asm_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-netbeans-libs-asm_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-netbeans-libs-asm_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-netbeans-libs-asm_zh_CN.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-openide-filesystems_ja.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-openide-filesystems_pt_BR.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-openide-filesystems_ru.jar:/Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/core/locale/org-openide-filesystems_zh_CN.jar
+-------------------------------------------------------------------------------
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.openide.util.lookup [8.33.1 201609300101]
+	org.openide.util [9.7.1 201609300101]
+	org.openide.util.ui [9.6.1 201609300101]
+	org.openide.modules [7.48.1 201609300101]
+	org.netbeans.api.annotations.common/1 [1.27.1 201609300101]
+	org.openide.filesystems [9.10.1 201609300101]
+	org.openide.awt [7.67.1 201609300101]
+	org.netbeans.api.progress/1 [1.47.1 201609300101]
+	org.netbeans.api.progress.nb [1.47.1 201609300101]
+	org.openide.dialogs [7.42.1 201609300101]
+	org.openide.nodes [7.45.1 201609300101]
+	org.openide.windows [6.75.1 201609300101]
+	org.netbeans.modules.editor.mimelookup/1 [1.40.1 201609300101]
+	org.openide.text [6.67.1 201609300101]
+	org.netbeans.swing.tabcontrol [1.56.1 201609300101]
+	org.netbeans.swing.outline [1.34.1 201609300101]
+	org.openide.explorer [6.62.1 201609300101]
+	org.openide.actions [6.39.1 201609300101]
+	org.netbeans.modules.queries/1 [1.43.1 201609300101]
+	org.netbeans.api.templates [1.7.1 201609300101]
+	org.openide.filesystems.nb [9.9.1 201609300101]
+	org.openide.loaders [7.66.1 201609300101]
+	org.netbeans.api.intent [1.2.1 201609300101]
+	org.netbeans.api.io [1.3.1 201609300101]
+	org.openide.io [1.49.1 201609300101]
+	org.netbeans.swing.plaf [1.41.1 201609300101]
+	org.netbeans.spi.quicksearch [1.27.1 201609300101]
+	org.netbeans.libs.asm [5.3.1 201609300101]
+	org.netbeans.bootstrap/1 [2.76.1 201609300101]
+	org.netbeans.core.startup.base [1.62.1.1 1 201609300101]
+	org.netbeans.core.startup/1 [1.62.1.1 201609300101]
+	org.netbeans.modules.settings/1 [1.49.1 201609300101]
+	org.netbeans.modules.sampler [1.14.1 201609300101]
+	org.netbeans.modules.keyring [1.24.1 201609300101]
+	org.netbeans.core/2 [3.51.1 201609300101]
+	org.netbeans.modules.options.api/1 [1.45.1 201609300101]
+	org.netbeans.modules.autoupdate.services [1.52.1 201609300101]
+	org.netbeans.core.windows/2 [2.81.1 201609300101]
+	dk.sdu.mmmi.cbse.SilentUpdate [1.0 1.0-20180411 201804111325]
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/ marked with the position attribute: [GoTo, Tools], but some are: [View, Window]
+INFO [org.netbeans.ui.metrics.laf]: USG_LOOK_AND_FEEL
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Update found: Auto Update UI[org.netbeans.modules.autoupdate.ui/1.45.1]
+INFO [org.netbeans.modules.autoupdate.services.Utilities]: Cannot validate certificate path - validity check failed
+java.security.cert.CertificateExpiredException: NotAfter: Mon Nov 13 00:59:59 CET 2017
+	at sun.security.x509.CertificateValidity.valid(CertificateValidity.java:274)
+	at sun.security.x509.X509CertImpl.checkValidity(X509CertImpl.java:629)
+	at sun.security.provider.certpath.BasicChecker.verifyValidity(BasicChecker.java:190)
+	at sun.security.provider.certpath.BasicChecker.check(BasicChecker.java:144)
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:125)
+Caused: java.security.cert.CertPathValidatorException: validity check failed
+	at sun.security.provider.certpath.PKIXMasterCertPathValidator.validate(PKIXMasterCertPathValidator.java:135)
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:223)
+	at sun.security.provider.certpath.PKIXCertPathValidator.validate(PKIXCertPathValidator.java:140)
+	at sun.security.provider.certpath.PKIXCertPathValidator.engineValidate(PKIXCertPathValidator.java:79)
+	at java.security.cert.CertPathValidator.validate(CertPathValidator.java:292)
+[catch] at org.netbeans.modules.autoupdate.services.Utilities.verifyCertificates(Utilities.java:212)
+	at org.netbeans.modules.autoupdate.services.InstallSupportImpl.verifyNbm(InstallSupportImpl.java:1092)
+	at org.netbeans.modules.autoupdate.services.InstallSupportImpl.doValidate(InstallSupportImpl.java:866)
+	at org.netbeans.modules.autoupdate.services.InstallSupportImpl.doValidate(InstallSupportImpl.java:819)
+	at org.netbeans.modules.autoupdate.services.InstallSupportImpl.access$900(InstallSupportImpl.java:92)
+	at org.netbeans.modules.autoupdate.services.InstallSupportImpl$2.call(InstallSupportImpl.java:264)
+	at org.netbeans.modules.autoupdate.services.InstallSupportImpl$2.call(InstallSupportImpl.java:237)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+INFO [org.netbeans.updater]: 780: Unpacking org-netbeans-modules-autoupdate-ui.nbm
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/config/Modules/org-netbeans-modules-autoupdate-ui.xml@0
+INFO [org.netbeans.updater]: Copied file /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm:netbeans/config/Modules/org-netbeans-modules-autoupdate-ui.xml to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/config/Modules/org-netbeans-modules-autoupdate-ui.xml
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar.pack.gz@0
+INFO [org.netbeans.updater]: Copied file /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm:netbeans/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar.pack.gz
+INFO [org.netbeans.updater]: Unpack /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ja.jar.pack.gz deleted.
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_pt_BR.jar.pack.gz@0
+INFO [org.netbeans.updater]: Copied file /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm:netbeans/modules/locale/org-netbeans-modules-autoupdate-ui_pt_BR.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_pt_BR.jar.pack.gz
+INFO [org.netbeans.updater]: Unpack /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_pt_BR.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_pt_BR.jar
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_pt_BR.jar.pack.gz deleted.
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ru.jar.pack.gz@0
+INFO [org.netbeans.updater]: Copied file /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm:netbeans/modules/locale/org-netbeans-modules-autoupdate-ui_ru.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ru.jar.pack.gz
+INFO [org.netbeans.updater]: Unpack /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ru.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ru.jar
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_ru.jar.pack.gz deleted.
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar.pack.gz@0
+INFO [org.netbeans.updater]: Copied file /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm:netbeans/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar.pack.gz
+INFO [org.netbeans.updater]: Unpack /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/locale/org-netbeans-modules-autoupdate-ui_zh_CN.jar.pack.gz deleted.
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/org-netbeans-modules-autoupdate-ui.jar.pack.gz@0
+INFO [org.netbeans.updater]: Copied file /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm:netbeans/modules/org-netbeans-modules-autoupdate-ui.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/org-netbeans-modules-autoupdate-ui.jar.pack.gz
+INFO [org.netbeans.updater]: Unpack /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/org-netbeans-modules-autoupdate-ui.jar.pack.gz to /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/org-netbeans-modules-autoupdate-ui.jar
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/modules/org-netbeans-modules-autoupdate-ui.jar.pack.gz deleted.
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/org-netbeans-modules-autoupdate-ui.nbm deleted.
+INFO [org.netbeans.updater]: Use XML Transformer: com.sun.org.apache.xalan.internal.xsltc.trax.TransformerImpl@7ef34973
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update_tracking/org-netbeans-modules-autoupdate-ui.xml modified.
+INFO [org.netbeans.updater]: File installed /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update_tracking/org-netbeans-modules-autoupdate-ui.xml@0
+INFO [org.netbeans.updater]: File /Users/pershapakdast/Documents/NetBeansProjects/KBS-Labs/Week_10/NetBeansLab1/application/target/netbeanslab1/platform/update/download/additional_information.xml deleted.
+INFO [org.netbeans.modules.autoupdate.silentupdate]: Install new modules done.
+INFO [org.openide.awt.NotificationDisplayer]: No NotificationDisplayer implementation available.
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.autoupdate.ui.actions.AutoupdateSettings.expirationCheck(AutoupdateSettings.java:281)
+WARNING [org.netbeans.modules.autoupdate.ui.actions.AutoupdateSettings]: The property "netbeans.default_userdir_root" was not set!
+WARNING [null]: Last record repeated again.
+INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
+	org.netbeans.modules.autoupdate.ui [1.45.1 201609300101]
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/ marked with the position attribute: [GoTo, Tools], but some are: [View, Window]
+WARNING [org.openide.filesystems.Ordering]: Not all children in Menu/ marked with the position attribute: [GoTo, Help, Tools], but some are: [View, Window]
+INFO [org.netbeans.modules.autoupdate.silentupdate]: None for update/install/uninstall
+INFO [null]: Last record repeated again.

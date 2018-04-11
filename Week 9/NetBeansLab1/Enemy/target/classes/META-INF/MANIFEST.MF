@@ -1,7 +1,7 @@
 Manifest-Version: null
 OpenIDE-Module-Specification-Version: 1.0.1
-OpenIDE-Module-Implementation-Version: 1.0.1-20180410
-OpenIDE-Module-Build-Version: 201804101200
+OpenIDE-Module-Implementation-Version: 1.0.1-20180411
+OpenIDE-Module-Build-Version: 201804111221
 OpenIDE-Module: netbeanslab1.Enemy
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
