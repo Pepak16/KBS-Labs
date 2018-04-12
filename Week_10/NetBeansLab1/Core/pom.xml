@@ -94,10 +94,9 @@
             <version>${netbeans.version}</version>
         </dependency>
         <dependency>
-            <groupId>dk.sdu.mmmi.cbse</groupId>
+            <groupId>${project.groupId}</groupId>
             <artifactId>Common</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-            <type>jar</type>
+            <version>${project.version}</version>
         </dependency>
     </dependencies>
     <properties>

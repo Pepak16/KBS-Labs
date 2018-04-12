@@ -1,7 +1,7 @@
 Manifest-Version: null
 OpenIDE-Module-Specification-Version: 1.0.1
-OpenIDE-Module-Implementation-Version: 1.0.1-20180411
-OpenIDE-Module-Build-Version: 201804111404
+OpenIDE-Module-Implementation-Version: 1.0.1-20180412
+OpenIDE-Module-Build-Version: 201804121237
 OpenIDE-Module: netbeanslab1.Enemy
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
@@ -10,6 +10,6 @@ OpenIDE-Module-Name: Enemy
 OpenIDE-Module-Short-Description: <undefined>
 OpenIDE-Module-Long-Description: <undefined>
 OpenIDE-Module-Module-Dependencies: org.netbeans.api.annotations.commo
- n/1 > 1.27.1, dk.sdu.mmmi.cbse.Common > 1.0.1, org.openide.util.looku
- p > 8.33.1
+ n/1 > 1.27.1, org.openide.util.lookup > 8.33.1, netbeanslab1.Common >
+  1.0.1
 
