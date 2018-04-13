@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module codename="netbeanslab1.Common">
-    <module_version install_time="1523537427320" last="true" origin="Sample Update Center" specification_version="1.0.1">
+    <module_version install_time="1523608264562" last="true" origin="Sample Update Center" specification_version="1.0.1">
         <file crc="4075535656" name="config/Modules/netbeanslab1-Common.xml"/>
         <file crc="990235981" name="modules/netbeanslab1-Common.jar"/>
     </module_version>

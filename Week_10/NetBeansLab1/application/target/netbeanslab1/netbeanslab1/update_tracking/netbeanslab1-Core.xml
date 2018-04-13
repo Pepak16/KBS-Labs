@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <module codename="netbeanslab1.Core">
-    <module_version install_time="1523537427333" last="true" origin="Sample Update Center" specification_version="1.0.1">
+    <module_version install_time="1523608264571" last="true" origin="Sample Update Center" specification_version="1.0.1">
         <file crc="2468644829" name="config/Modules/netbeanslab1-Core.xml"/>
         <file crc="2488665527" name="modules/ext/netbeanslab1.Core/com-badlogicgames-gdx/gdx-backend-lwjgl.jar"/>
         <file crc="2933476186" name="modules/ext/netbeanslab1.Core/com-badlogicgames-gdx/gdx-box2d-platform-natives-desktop.jar"/>

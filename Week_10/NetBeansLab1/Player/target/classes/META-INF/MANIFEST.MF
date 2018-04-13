@@ -1,7 +1,7 @@
 Manifest-Version: null
 OpenIDE-Module-Specification-Version: 1.0.1
 OpenIDE-Module-Implementation-Version: 1.0.1-20180412
-OpenIDE-Module-Build-Version: 201804121237
+OpenIDE-Module-Build-Version: 201804121315
 OpenIDE-Module: netbeanslab1.Player
 OpenIDE-Module-Public-Packages: -
 OpenIDE-Module-Requires: org.openide.modules.ModuleFormat1
