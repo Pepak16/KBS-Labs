@@ -23,7 +23,7 @@ public class Updater implements BundleActivator {
     private final List<Bundle> failedBundles = new ArrayList<>();
 
     public void start(BundleContext bundleContext) throws Exception {
-        Path MODULES_DIRECTORY = Paths.get("/Users/pershapakdast/NetBeansProjects/KBS-Labs/Week_11/AsteroidsOSGi");
+        Path MODULES_DIRECTORY = Paths.get("/Users/pershapakdast/NetBeansProjects/KBS-Labs/Week_11/AsteroidsOSGi/LoadableModules");
 
         this.bundleContext = bundleContext;
 

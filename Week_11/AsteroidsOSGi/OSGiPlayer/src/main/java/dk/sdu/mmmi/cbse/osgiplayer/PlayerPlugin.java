@@ -18,12 +18,12 @@ public class PlayerPlugin implements IGamePluginService {
     @Override
     public void start(GameData gameData, World world) {
         // Add entities to the world
-        Entity player = createEnemyShip(gameData);
+        Entity player = createPlayerShip(gameData);
         playerID = world.addEntity(player);
         
     }
 
-    private Entity createEnemyShip(GameData gameData) {
+    private Entity createPlayerShip(GameData gameData) {
         Entity playerShip = new Player();
 
         float deacceleration = 10;

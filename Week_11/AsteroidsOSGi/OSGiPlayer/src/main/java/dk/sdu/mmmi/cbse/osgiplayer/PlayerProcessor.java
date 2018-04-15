@@ -1,8 +1,11 @@
 package dk.sdu.mmmi.cbse.osgiplayer;
 
-import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
+//import dk.sdu.mmmi.cbse.common.bullet.BulletSPI;
 import dk.sdu.mmmi.cbse.common.data.Entity;
 import dk.sdu.mmmi.cbse.common.data.GameData;
+import static dk.sdu.mmmi.cbse.common.data.GameKeys.LEFT;
+import static dk.sdu.mmmi.cbse.common.data.GameKeys.RIGHT;
+import static dk.sdu.mmmi.cbse.common.data.GameKeys.UP;
 import dk.sdu.mmmi.cbse.common.data.World;
 import dk.sdu.mmmi.cbse.common.data.entityparts.MovingPart;
 import dk.sdu.mmmi.cbse.common.data.entityparts.PositionPart;
@@ -11,7 +14,7 @@ import dk.sdu.mmmi.cbse.common.services.IEntityProcessingService;
 
 public class PlayerProcessor implements IEntityProcessingService {
 
-    private BulletSPI bulletService;
+    //private BulletSPI bulletService;
 
 
     @Override
@@ -21,16 +24,16 @@ public class PlayerProcessor implements IEntityProcessingService {
 
             PositionPart positionPart = entity.getPart(PositionPart.class);
             MovingPart movingPart = entity.getPart(MovingPart.class);
-            double random = Math.random();
-            movingPart.setLeft(random < 0.2);
-            movingPart.setRight(random > 0.3 && random < 0.5);
-            movingPart.setUp(random > 0.7 && random < 0.9);
-            
+            //double random = Math.random();
+            movingPart.setLeft(gameData.getKeys().isDown(LEFT));
+            movingPart.setRight(gameData.getKeys().isDown(RIGHT));
+            movingPart.setUp(gameData.getKeys().isDown(UP));
+            /*
             if (random > 0.98) {
                 Entity bullet = bulletService.createBullet(entity, gameData);
                 world.addEntity(bullet);
             }
-            
+            */
             movingPart.process(gameData, entity);
             positionPart.process(gameData, entity);            
             updateShape(entity);
@@ -63,11 +66,11 @@ public class PlayerProcessor implements IEntityProcessingService {
     }
 
     //TODO: Dependency injection via Declarative Services
-    public void setBulletService(BulletSPI bulletService) {
+    /*public void setBulletService(BulletSPI bulletService) {
         this.bulletService = bulletService;
     }
 
     public void removeBulletService() {
         this.bulletService = null;
-    }
+    }*/
 }
