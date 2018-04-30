@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="netbeanslab1.NetBeansLab1.branding">
+    <module_version install_time="1525121932484" last="true" origin="installer" specification_version="1.0.1">
+        <file crc="554880640" name="config/Modules/netbeanslab1-NetBeansLab1-branding.xml"/>
+        <file crc="2071504881" name="core/locale/core_netbeanslab1.jar"/>
+        <file crc="3785733923" name="modules/locale/org-netbeans-core-windows_netbeanslab1.jar"/>
+        <file crc="1830459030" name="modules/locale/org-netbeans-core_netbeanslab1.jar"/>
+        <file crc="532188596" name="modules/netbeanslab1-NetBeansLab1-branding.jar"/>
+    </module_version>
+</module>
